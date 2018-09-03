@@ -169,6 +169,8 @@ holiday_hash.each do |key,value|
 value.each do |key,value|
   return value.include("BBQ")
 end
+end
+end
 
 
 
