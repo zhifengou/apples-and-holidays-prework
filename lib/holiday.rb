@@ -165,12 +165,14 @@ def all_holidays_with_bbq(holiday_hash)
       :memorial_day => ["BBQ"]
     }
   }
+  key_arr=[]
 holiday_hash.each do |key,value|
 value.each do |key,value|
   if value.include?("BBQ")
-    return key
+    key_arr=key_arr.push(key)
   end
 end
+return key_arr
 end
 end
 
