@@ -169,7 +169,7 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_hash.each do |key,value|
 value.each do |key,value|
   if value.include?("BBQ")
-    key_arr=key_arr.push(key)
+    key_arr=key_arr.pukey
   end
 end
 return key_arr
