@@ -165,9 +165,9 @@ def all_holidays_with_bbq(holiday_hash)
       :memorial_day => ["BBQ"]
     }
   }
-
-
-
+holiday_hash.each do |key,value|
+value.each do |key,value|
+  return value.include("BBQ")
 end
 
 
