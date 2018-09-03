@@ -172,8 +172,8 @@ value.each do |key,value|
     key_arr=key_arr<<value
   end
 end
-return key_arr
 end
+return key_arr
 end
 
 
